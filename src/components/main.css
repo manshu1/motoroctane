@@ -1,0 +1,274 @@
+.logo_img img{
+    width: 120px;
+    justify-content: right;
+    float: right;
+}
+.logo_img{
+    width: 15%;
+    overflow: hidden;
+}
+.main_header_link{
+    display: flex;
+    font-size: 10px;
+    text-align: center;
+    gap: 2.5px;
+    width: 1000px;
+    justify-content: flex-end;
+}
+.main_header{
+    display: inline-flex;
+    max-height: 100px;
+    height: 100px;
+    width: 100%;
+    background-color: #231F1E;
+    color: var(--gray);
+    justify-content: space-between;
+    align-items: center;
+}
+.partthree{
+    display: inline-flex;
+    color: var(--white);
+    gap: 3px;
+    align-items: center;
+    width: 238px;
+}
+.divider_header{
+    background-color: var(--white);
+    height: 0.05px;
+}
+.user_image{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: var(--gray);
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+}
+ul{
+    width: 110px;
+    background-color: var(--white);
+    height: 8px;
+    margin: 0px;
+    padding: 12px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.label {
+    border: 0px none;
+  }
+  
+  .label .FIND-YOUR-PERFECT {
+    color: transparent;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+text-align: center;  }
+  
+  .label .text-wrapper {
+    color: var(--gray);
+  }
+
+  .main_card_image{
+    mix-blend-mode: multiply;
+    width: 220px;
+  }
+  .inside_card{
+    margin: 10px;
+  }
+  .inside_card_title{
+    margin-top: -25px;
+  }
+  .info_card, .side_info{
+    font-size: 14px;
+  }
+  .info_card_variants{
+    color: var(--gray);
+  }
+  .stars{
+    background-color: var(--gray);
+    border-radius: 50px;
+    width: 38%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  
+  .label .text-wrapper-2 {
+    color: var(--red);
+  }
+  .search_tabs{
+    display: flex;
+    gap: 2%;
+    width: auto;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 16px;
+    background: none;
+}
+.full_tabs{
+    width: 128px;
+    height: auto;
+    background-color: var(--lightgray);
+    border: 1px solid var(--gray);
+    padding: 5px;
+}
+.full_tabs .active{
+    background-color: var(--black);
+    border: 1px solid var(--gray);
+    color: var(--white);
+}
+.full_tabs:hover{
+    background-color: var(--black);
+    border: 1px solid var(--gray);
+    color: var(--white);
+    cursor: pointer;
+}
+.input_box{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+}
+.input_box input{
+padding-left: 20px;
+font-size: 16px;
+}
+.input_box_input{
+    width: 50%;
+    height: 36px;
+    border: 2px solid var(--black);
+}
+.search_btn{
+    height: 41px;
+    width: 36px;
+    background-color: var(--black);
+    margin-left: -38px;
+    cursor: pointer;
+
+}
+.search_btn ion-icon{
+    color: var(--white);
+    width: 70%;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    margin: auto;
+    margin-top: 14%;
+}
+.input_box_below{
+    width: 62%;
+    text-align: center;
+    margin-top: 2px;
+}
+.advance_bars{
+    width: 50%;
+    text-align: center;
+    display: contents;
+}
+.advance_bars li{
+    display: flex;
+    font-size: 18px;
+}
+.price-range {
+    margin-left: 5px;
+  }
+.advance_bars_back{
+    background-color: var(--gray);
+    color: var(--white);
+    padding: 10px;
+    width: 110px;
+justify-content: center;
+}
+.advance_bars_back:hover{
+    background-color: var(--red);
+    cursor: pointer;
+}
+.margin_gap{
+    width: -10px;
+    height: 50px;
+    border-left: 3px dashed var(--gray); 
+}
+.addmargin{
+    margin-top: 30px;
+}
+.select_section{
+    display: flex;
+}
+.select_section_main{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    margin: auto;
+}
+.fule_colour{
+    color: var(--red);
+}
+.ad_space{
+    width: 464px;
+    height: 87px;
+    background-color: #b1081933;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.fule_text {
+    font-size: 32px;
+
+}
+.select_fuel, .select_fuel:hover, .select_fuel::selection{
+    border: 1px solid var(--gray);
+    width: 200px;
+    height: 40px;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none !important;
+}
+
+.select_fuel_price {
+    width: 200px;
+    height: 40px;
+    background-color: var(--gray);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: var(--white);
+}
+.select_section_under{
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+}
+.back_image {
+    position: relative;
+  }
+  
+  .back_image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../Images/tyremask.png');
+    opacity: 0.2; /* Adjust the opacity as needed */
+    z-index: -1;
+    background-repeat: no-repeat;
+  }
+
+
+  .featurd_car{
+    width: 100%;
+    background-color: var(--lightgray);
+    padding-top: 1px;
+    padding-bottom: 20px;
+  }

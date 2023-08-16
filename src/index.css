@@ -1,13 +1,23 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('./fonts/Armstrong\ 400.otf') format('opentype');
+}
+::selection {
+  color: red;
+  background: yellow;
+}
+:root {
+  --gray: #767678;
+  --white: #ffffff; 
+  --red:#b10819;
+  --black:#000000;
+  --lightgray:#F1F1F1;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'CustomFont';
+}
+code {
+  font-family:  'CustomFont';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
