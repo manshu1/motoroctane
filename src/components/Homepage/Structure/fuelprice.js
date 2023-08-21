@@ -8,7 +8,7 @@ const FuelPrice = () => {
         cng: 50.9,
         lpg: 55.2,
       },
-      Mumbai: {
+      mumbai: {
         petrol: 114.5,
         diesel: 106.3,
         cng: 53.9,
