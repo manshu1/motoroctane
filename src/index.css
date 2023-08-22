@@ -2,6 +2,10 @@
   font-family: 'CustomFont';
   src: url('./fonts/Armstrong\ 400.otf') format('opentype');
 }
+@font-face {
+  font-family: 'CustomFont800';
+  src: url('./fonts/Armstrong\ Extrabold\ 800.otf') format('opentype');
+}
 ::selection {
   color: red;
   background: yellow;

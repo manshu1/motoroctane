@@ -5,8 +5,8 @@ const featuredcars = () => {
   return (
     <section className='featurd_car'>
 <div className="label">
-    <p className="FIND-YOUR-PERFECT">
-      <span className="text-wrapper">FEATURED </span>
+    <p className="FIND-YOUR-PERFECT brand">
+      <span className="text-wrapper">FEATURED</span>
       <span className="span">&nbsp;</span>
       <span className="text-wrapper-2">CARS</span>
     </p>

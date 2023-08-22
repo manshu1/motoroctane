@@ -272,3 +272,29 @@ button:focus {
     padding-top: 1px;
     padding-bottom: 20px;
   }
+  .brand{
+    font-size: 32px !important;
+    font-family: 'CustomFont800' !important;
+  }
+
+
+  .logos-section {
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;width: 80%;
+  }
+
+  .logos-container {
+            
+          column-count: 70;
+          display: table-cell;
+          overflow: hidden;
+
+
+  }
+
+  .logo-image {
+    width: 100px;
+    height: 70px;
+    margin: 10px;
+  }
