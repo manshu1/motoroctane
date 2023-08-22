@@ -280,21 +280,35 @@ button:focus {
 
   .logos-section {
     text-align: center;
-    padding: 20px;
-    overflow: hidden;width: 80%;
-  }
+    padding: 10px;
+    overflow: hidden;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;  
+ }
 
   .logos-container {
-            
-          column-count: 70;
-          display: table-cell;
-          overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    column-count: 70;
+    display: table-cell;
+    overflow: hidden;
+  }
 
-
+  .brand_logos{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: center;
+    text-align: center;
   }
 
   .logo-image {
-    width: 100px;
+    width: 70px;
     height: 70px;
-    margin: 10px;
+    margin: 5px;
+  }
+  .center_logo{
+    display: flex;
+    justify-content: center;
   }
