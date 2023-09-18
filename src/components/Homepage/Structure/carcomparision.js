@@ -1,6 +1,5 @@
 import React from 'react'
 import {useState} from 'react';
-import shortImage from '../../../Images/shortimg.jpg';
 
 
 const CarComparisonData = [
