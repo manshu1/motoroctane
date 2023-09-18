@@ -97,7 +97,7 @@ const brands = () => {
   return (
     <section>
     <div className="label">
-    <p className="FIND-YOUR-PERFECT brand">
+    <p className="FIND-YOUR-PERFECT brand mt-3">
       <span className="text-wrapper">BROWSE BY</span>
       <span className="span">&nbsp;</span>
       <span className="text-wrapper-2">BRANDS</span>

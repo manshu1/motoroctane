@@ -50,7 +50,7 @@ const FuelPrice = () => {
         <div className='select_section'>
         <div className='select_section_under'>
         <div>
-          <select className='select_fuel' id="fuel" value={selectedFuel} onChange={handleFuelChange}>
+          <select className='select_fuel font-color-gray align-item-center justify-content-center d-inline' id="fuel" value={selectedFuel} onChange={handleFuelChange}>
             <option value="">Choose Fuel</option>
             <option value="petrol">Petrol</option>
             <option value="diesel">Diesel</option>
@@ -60,7 +60,7 @@ const FuelPrice = () => {
         </div>
 
         <div>
-          <select className='select_fuel' id="city" value={selectedCity} onChange={handleCityChange}>
+          <select className='select_fuel font-color-gray' id="city" value={selectedCity} onChange={handleCityChange}>
             <option value="">Choose City</option>
             <option value="delhi">Delhi</option>
             <option value="mumbai">Mumbai</option>

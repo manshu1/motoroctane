@@ -7,8 +7,16 @@ import Adbanner2 from '../Homepage/Structure/Adbanner2'
 import Fuelprice from '../Homepage/Structure/fuelprice'
 import FeatureCar from '../Homepage/Structure/featuredcars'
 import Adbanner3 from '../Homepage/Structure/Adbanner3'
+import Adbanner4 from '../Homepage/Structure/Adbanner4'
 import Brands from '../Homepage/Structure/brands'
 import LatestVideo from '../Homepage/Structure/youtubevideos';
+import TopVideos from '../Homepage/Structure/toppicsforyou';
+import MoStories from '../Homepage/Structure/mostories';
+import CarComparison from '../Homepage/Structure/carcomparision';
+import News from '../Homepage/Structure/newsupdate';
+import Footer from '../Homepage/Structure/footer';
+// import 'bootstrap/dist/css/bootstrap.css';
+
 
 
 
@@ -17,14 +25,23 @@ export const Homepage = () => {
     <>
         <Header />
         <Adbanner1 />
-       <div className='back_image'> <Searchbar />
+          <div className='back_image'>
+        <Searchbar />
         <Cards />
         <Adbanner2 />
-        <Fuelprice /></div>
+        <Fuelprice />
+          </div>
         <FeatureCar />
         <Adbanner3 />
         <Brands />
-        <LatestVideo channelLink="https://www.youtube.com/channel/UCSXOsOIzeJqJb4h0QlimDww" />
+        <LatestVideo />
+        <TopVideos />
+        <MoStories />
+        <Adbanner4 />
+        <CarComparison />
+        <News />
+        <Footer />
+
 
     </>
   )

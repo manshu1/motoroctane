@@ -1,7 +1,7 @@
 import React from 'react'
 import Ads from '../../../Images/banner1.png';
 
-const Adbanner1 = () => {
+const Adbanner4 = () => {
   return (
 <div style={{ width: '100%', overflow: 'hidden', height: '284px' }}>
 
@@ -10,4 +10,4 @@ const Adbanner1 = () => {
   )
 }
 
-export default Adbanner1;
+export default Adbanner4;

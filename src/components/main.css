@@ -3,8 +3,10 @@
     justify-content: right;
     float: right;
 }
+.header-text{
+  font-family: 'flamante-sans-bold', sans-serif;}
 .logo_img{
-    width: 15%;
+    width: 20%;
     overflow: hidden;
 }
 .main_header_link{
@@ -12,7 +14,6 @@
     font-size: 10px;
     text-align: center;
     gap: 2.5px;
-    width: 1000px;
     justify-content: flex-end;
 }
 .main_header{
@@ -61,11 +62,12 @@ ul{
   
   .label .FIND-YOUR-PERFECT {
     color: transparent;
-    font-size: 24px;
+    font-size: 32px;
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
-text-align: center;  }
+text-align: center;  
+font-family: 'CustomFont800';}
   
   .label .text-wrapper {
     color: var(--gray);
@@ -73,7 +75,7 @@ text-align: center;  }
 
   .main_card_image{
     mix-blend-mode: multiply;
-    width: 220px;
+    width: 169px;
   }
   .inside_card{
     margin: 10px;
@@ -90,10 +92,11 @@ text-align: center;  }
   .stars{
     background-color: var(--gray);
     border-radius: 50px;
-    width: 38%;
+    width: 50%;
     align-items: center;
     justify-content: center;
     display: flex;
+    font-size: 14px;
   }
 
   
@@ -115,8 +118,11 @@ text-align: center;  }
     background-color: var(--lightgray);
     border: 1px solid var(--gray);
     padding: 5px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+
+
 }
-.full_tabs .active{
+.full_tabs.active{
     background-color: var(--black);
     border: 1px solid var(--gray);
     color: var(--white);
@@ -138,7 +144,7 @@ padding-left: 20px;
 font-size: 16px;
 }
 .input_box_input{
-    width: 50%;
+    width: 70%;
     height: 36px;
     border: 2px solid var(--black);
 }
@@ -162,7 +168,7 @@ font-size: 16px;
     margin-top: 14%;
 }
 .input_box_below{
-    width: 62%;
+    width: 42%;
     text-align: center;
     margin-top: 2px;
 }
@@ -189,13 +195,17 @@ justify-content: center;
     background-color: var(--red);
     cursor: pointer;
 }
+.advance_bars_back.active{
+    background-color: var(--red);
+    cursor: pointer;
+}
 .margin_gap{
     width: -10px;
     height: 50px;
     border-left: 3px dashed var(--gray); 
 }
 .addmargin{
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 .select_section{
     display: flex;
@@ -219,11 +229,13 @@ justify-content: center;
     display: flex;
 }
 .fule_text {
-    font-size: 32px;
+    font-size: 24px !important;
+    font-family: 'CustomFont800' !important;
+
 
 }
 .select_fuel, .select_fuel:hover, .select_fuel::selection{
-    border: 1px solid var(--gray);
+    border: 2px solid var(--gray);
     width: 200px;
     height: 40px;
 }
@@ -260,7 +272,7 @@ button:focus {
     width: 100%;
     height: 100%;
     background-image: url('../Images/tyremask.png');
-    opacity: 0.2; /* Adjust the opacity as needed */
+    opacity: 0.07; /* Adjust the opacity as needed */
     z-index: -1;
     background-repeat: no-repeat;
   }
@@ -268,7 +280,13 @@ button:focus {
 
   .featurd_car{
     width: 100%;
-    background-color: var(--lightgray);
+    background-color: #DFDFDFCC;
+    padding-top: 1px;
+    padding-bottom: 20px;
+  }
+  .top-pic-car , .mo-storiesec{
+    width: 100%;
+    background-color: transparent;
     padding-top: 1px;
     padding-bottom: 20px;
   }
@@ -312,3 +330,285 @@ button:focus {
     display: flex;
     justify-content: center;
   }
+  .video-section{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  .main-video-section{
+    width: 214px;
+    box-sizing: border-box;
+    padding: 10px; 
+    gap: 20px;
+  }
+  .main-video-section img{
+    width: 214px;
+    border-radius: 6.4px;
+
+  }
+  .video-title{
+    color: #818181;
+font-family: Montserrat;
+font-size: 6px;
+font-style: normal;
+font-weight: 700;
+  }
+  .video-dec{
+    color: #818181;
+text-align: justify;
+text-overflow: ellipsis;
+whitespace: nowrap;
+font-family: Montserrat;
+font-size: 4px;
+font-style: normal;
+font-weight: 400;
+  }
+
+  /* mo-design css */
+  .brand_storie{
+    width: 70%
+  }
+  .main-storie-section img{
+    height: 370px;
+    width: 180px;  
+    border-radius: 24px;
+    z-index: -1;
+    position: relative;
+  }
+  .storie-details{
+    margin-top: -50px;
+    width: 170px;
+    background: linear-gradient(180deg, #fff6f250 20.73%, #646160 34.67%);
+    z-index: 99999;
+    margin-left: 5px; 
+    border-radius: 0px 0px 24px 24px;
+    padding: 5px;
+    color: var(--white);
+  }
+  .storie-container{
+    display: flex;
+  }
+  .storie-section{
+    width: 100%;
+    overflow: hidden;
+  }
+  .center_storie{
+    justify-content: center;
+    display: flex;
+  }
+  .storie-title{
+    font-size: 14px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;  }
+  .storie-dec{
+    font-size: 14px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+   }
+
+   /* Card Comparision */
+   .comparo-card{
+    width: 300px;
+    height: 158px;
+    padding: 10px;
+    overflow: hidden;
+    border: 2px solid var(--gray);
+    -webkit-box-shadow: 0 0 5px 2px var(--gray);
+    -moz-box-shadow: 0 0 5px 2px var(--gary);
+    box-shadow: 0 0 10px 0.5px var(--gray);
+   }
+   .car-comp-img{
+    width: 100%;
+    max-height: 100px;
+   }
+   .car-com-section{
+    gap: 10px;
+    display: flex;
+   }
+   .slider_btn_white{
+    background-color: var(--white);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: var(--gray);
+    font-size: 20px;
+    margin: 10px;
+    border: 3px solid var(--gray);
+  }  
+  .comp-description{
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    font-style: normal;
+    line-height: normal;
+    gap: 7px;
+  }
+  .comp-description-brand{
+    color: var(--gray);
+font-family: CustomFont;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  .comp-description-model{
+    color: var(--red);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+  }
+  .comp-description-price{
+    color:var(--gray);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+  .copm-cards{
+    width: 70%;
+    overflow: hidden;
+  }
+  .vs-item{
+    position: absolute;
+    color: #FCFCFC;
+font-family: Montserrat;
+font-size: 14.4px;
+font-style: normal;
+font-weight: 600;
+width: 30px;
+height: 30px;
+flex-shrink: 0;
+background-color: var(--black);
+border-radius: 50px;
+align-items: center;
+display: flex;
+justify-content: center;
+top: 60px;
+margin-left: -10px;
+  }
+
+  /* NEWS UPDATE */
+  .news-cardsection{
+    overflow: hidden;
+    width: 70%;
+
+  }
+  .card-section-top{
+    overflow: hidden;
+    justify-content: center;
+  }
+  .card-body-com{
+    width: 300px;
+    margin-right: 20px;
+  }
+  .com-image{
+    width: 300px;
+    height: auto;
+  }
+  .news-title{
+    color: var(--black);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+  .news-description{
+    color: var(--black);
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  .news-url{
+    color: var(--red);
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 300px;
+text-align: end;
+margin-top: -10px;
+  }
+
+/* css footer */
+footer{
+  width: 100%;
+  height: 139px;
+  background: #040404;
+  color: #FFF6F2 !important;
+  font-family: Roboto !important;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.inside-footer{
+  width: 90%;
+  display: flex;
+}
+.link-logos{
+  width: 70%;
+  margin-left: 40px;
+}
+.social-power{
+  width: 30%;
+}
+.links-footer{
+  list-style-type: none;
+  width: auto !important;
+    background-color: transparent;
+    height: auto;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: var(--white);
+}
+.footer-image img{
+  width: 87px;
+height: 55px;
+}
+.footer-image{
+  gap: 80px;
+  align-items: center;
+  display: flex;
+}
+.copyright-txt{
+  margin-top: 1%;
+}
+.logos-link{
+  display: flex;
+  font-size: 30px;
+  gap: 10px;
+  color: #040404;
+}
+.logos-link div{
+  display: flex;
+  font-size: 30px;
+  background-color: var(--lightgray);
+  border-radius: 50px;
+  width: 44px;
+height: 44px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.brandklin{
+  width: 161px;
+height: 25px;
+}

@@ -35,8 +35,10 @@ const Cards = () => {
           <img className="main_card_image" src={card.imageSrc} alt={card.title} />
           <div className="stars">{card.star}</div>
           <section className='info_card'>
-          <div className='info_card_variants'>Variants {card.variants}</div>
-          <div>{card.price}</div>
+          <div className='info_card_variants'>Variants <span style={{ color: 'var(--red)'}}>{card.variants}</span></div>
+          <div style={{ color: '#B1081A' }}>
+  <span style={{ color: 'var(--black)' }}>₹</span> 10,44,000 - <span style={{ color: 'var(--black)' }}>₹</span> 18,20,000
+</div>
           <div>Ex-Showroom | On-Road</div></section>
           </div>
         </div>
