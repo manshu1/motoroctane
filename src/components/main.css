@@ -1,5 +1,5 @@
 .logo_img img{
-    width: 120px;
+    width: 140px;
     height: 80px;
     justify-content: right;
     overflow: hidden;
@@ -108,7 +108,7 @@ font-family: 'CustomFont800';}
     color: var(--gray);
   }
   .stars{
-    background-color: var(--gray);
+    background-color: #b5b1b1;
     border-radius: 50px;
     width: 50%;
     align-items: center;
@@ -170,7 +170,7 @@ font-size: 16px;
     height: 41px;
     width: 36px;
     background-color: var(--black);
-    margin-left: -38px;
+    margin-left: -37px;
     cursor: pointer;
 
 }
@@ -671,4 +671,11 @@ height: 25px;
   width: 150px;
   left: 0;
   /* bottom: 10px; */
+}
+.scrach-image-news{
+  position: absolute;
+  width: 150px;
+  right: 0;
+  /* bottom: 0px; */
+  margin-top: 80px;
 }

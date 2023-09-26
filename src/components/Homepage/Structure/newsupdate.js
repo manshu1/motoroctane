@@ -1,5 +1,7 @@
 import React from 'react'
 import {useState} from 'react';
+import ScrachNews from '../../../Images/scrach.png';
+
 
 
 
@@ -71,6 +73,7 @@ const newss = [
 const News = () => {
   return (
     <section>
+        <img className='scrach-image-news' src={ScrachNews} alt='scrach'></img>    
     <div className="label">
     <p className="FIND-YOUR-PERFECT brand mt-3">
       <span className="text-wrapper">NEWS</span>
