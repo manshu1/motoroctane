@@ -1,9 +1,11 @@
 import React from 'react'
+import Scrach from '../../../Images/scrach.png';
 
 
 const Search = () => {
   return (
-    <div>    
+    <div>
+    <img className='scrach-image' src={Scrach} alt='scrach'></img>    
     <div className="label">
     <p className="FIND-YOUR-PERFECT mt-3 fw-bold">
       <span className="text-wrapper">FIND YOUR</span>
@@ -23,7 +25,7 @@ const Search = () => {
       />
       <div className='search_btn'><ion-icon name="search-outline"></ion-icon></div>
       </div>
-      <p className='input_box_below'>E.g.: Jeep Cherokee</p>
+      <p className='input_box_below'><span>E.g.:</span> Jeep Cherokee</p>
       <div className='advance_bars'>
         <ul className='search_tabs addmargin'>
             <li className='advance_bars_back active'>UNDER <div className="price-range">8L</div></li><div className='margin_gap' />

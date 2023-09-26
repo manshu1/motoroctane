@@ -1,5 +1,6 @@
 import React from 'react'
 import {useState} from 'react';
+import ScrachNewBrand from '../../../Images/scrach.png';
 
 
 
@@ -96,6 +97,7 @@ const logos = [
 const brands = () => {
   return (
     <section>
+        <img className='scrach-image-brand' src={ScrachNewBrand} alt='scrach'></img>    
     <div className="label">
     <p className="FIND-YOUR-PERFECT brand mt-3">
       <span className="text-wrapper">BROWSE BY</span>

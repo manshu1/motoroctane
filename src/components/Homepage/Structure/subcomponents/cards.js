@@ -31,12 +31,12 @@ const Cards = () => {
         <div key={card.id} className='main_card'>
           <div className="bookmarkRibbon"></div>
           <div className="inside_card">
-          <div className="inside_card_title">{card.title}</div>
+          <div className="inside_card_title">{card.title}<span>{card.title2}</span></div>
           <img className="main_card_image" src={card.imageSrc} alt={card.title} />
           <div className="stars">{card.star}</div>
           <section className='info_card'>
           <div className='info_card_variants'>Variants <span style={{ color: 'var(--red)'}}>{card.variants}</span></div>
-          <div style={{ color: '#B1081A' }}>
+          <div style={{ color: '#B1081A',fontWeight: '600'}}>
   <span style={{ color: 'var(--black)' }}>₹</span> 10,44,000 - <span style={{ color: 'var(--black)' }}>₹</span> 18,20,000
 </div>
           <div>Ex-Showroom | On-Road</div></section>

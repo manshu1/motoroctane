@@ -9,6 +9,7 @@
     height: 100%;
     border: 1px solid var(--gray);
     border-radius: 16px;
+    background-color: #fff;
 }
 .inside_card_title{
   font-size: 16px;
@@ -57,6 +58,8 @@ font-weight: 400;
     border-left:10px solid var(--red);
     border-bottom:6px solid transparent;
 }
+
+
 .icon_image{
     width:25%;
     align-items: center;

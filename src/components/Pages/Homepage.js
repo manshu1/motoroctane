@@ -35,14 +35,14 @@ export const Homepage = () => {
         <Adbanner3 />
         <Brands />
         <LatestVideo />
+        <div className='back_image-down'>
         <TopVideos />
         <MoStories />
+        </div>
         <Adbanner4 />
         <CarComparison />
         <News />
         <Footer />
-
-
     </>
   )
 }

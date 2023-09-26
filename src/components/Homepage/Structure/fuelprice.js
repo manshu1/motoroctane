@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import ScrachNew from '../../../Images/scrach.png';
+
 
 const FuelPrice = () => {
   const fuelPricesByCity = {
@@ -45,6 +47,7 @@ const FuelPrice = () => {
     <>
     <section className='select_section_main'>
     <section>
+    <img className='scrach-image-feul' src={ScrachNew} alt='scrach'></img>    
       <div>
         <div className='fule_text'>FUEL <span className='fule_colour'>PRICES</span></div>
         <div className='select_section'>
