@@ -95,7 +95,7 @@ font-family: 'CustomFont800';}
     margin: 10px;
   }
   .inside_card_title{
-    margin-top: -25px;
+    margin-top: -35px;
     color: var(--gray);
   }
   .inside_card_title span{
@@ -290,32 +290,39 @@ button:focus {
   .back_image::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: -50px;
+    left: -150px;
+    width: 80%;
+    height: 150%;
     background-image: url('../Images/tyremask.png');
-    opacity: 0.07; /* Adjust the opacity as needed */
+    background-size: cover;
+    opacity: 0.1;
     z-index: -1;
     background-repeat: no-repeat;
-  }
+    rotate: 350deg;
+}
+
 .back_image-down {
     position: relative;
   }
   
+
   .back_image-down::before {
     content: "";
     position: absolute;
-    top: 0;
-    right: 10px;
-    width: 120%;
-    height: 150%;
+    top: -50px;
+    right: -50px;
+    width: 70%;
+    height: 99%;
+    background-size: cover;
     background-image: url('../Images/tyremask.png');
-    opacity: 0.1; /* Adjust the opacity as needed */
+    opacity: 0.1;
     z-index: -1;
     background-repeat: no-repeat;
     transform: scaleX(-1);
-  }
+    /* transform: rotate(45deg); */
+    rotate: 15deg;
+}
 
 
   .featurd_car{
@@ -394,7 +401,7 @@ button:focus {
   .video-title{
     color: #818181;
 font-family: Montserrat;
-font-size: 6px;
+font-size: 12px;
 font-style: normal;
 font-weight: 700;
   }
@@ -404,7 +411,7 @@ text-align: justify;
 text-overflow: ellipsis;
 whitespace: nowrap;
 font-family: Montserrat;
-font-size: 4px;
+font-size: 6px;
 font-style: normal;
 font-weight: 400;
   }
