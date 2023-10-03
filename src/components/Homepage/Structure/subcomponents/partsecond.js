@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../../main.css';
+import MobileMenu from './mobileline'
 
 export const partsecond = () => {
   return (
@@ -12,6 +13,7 @@ export const partsecond = () => {
         <ul>MY HISTORY</ul>
         <ul>CALCULATORS</ul>
     </div>
+    <MobileMenu />
 </>
   )
 }

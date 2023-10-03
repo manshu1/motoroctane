@@ -1,6 +1,10 @@
 import React from 'react'
 import './product.css';
 import cardData from '../../Homepage/Structure/subcomponents/cardData';
+import seater from '../../../Images/icons/seat.png';
+import petrol from '../../../Images/icons/gas.png';
+import manul from '../../../Images/icons/machin.png';
+import ncap from '../../../Images/icons/privi.png';
 
 
 const productsection = () => {
@@ -21,10 +25,11 @@ const productsection = () => {
     <div className='full_tabs_new'><li>MILEAGE</li></div>
   </ul>
   </div>
+  <section className='inline-section-product mt-3'>
   <section className='card-car-full-product'>
   <div className='card-car-full-product-info'>
     <div><img className="main-product-image" src={cardData[0].imageSrc} alt={cardData.title} /></div>
-    <div>
+    <div className='sider-info-product-full'>
         <div className='d-flex justify-content-between'>
             <div>
             <div className="inside_card_title_product">{cardData[0].title}<span>{cardData[0].title2}</span></div>                
@@ -36,7 +41,7 @@ const productsection = () => {
                 <div className='rating-inno-full'>2054 reviews</div>
             </div>
         </div>
-        <div>
+        <div className='infos-product'>
             <div>ON ROAD MUMBAI <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14" fill="none">
   <path d="M15 2.625L13 0.875L11 2.625L13 4.375L15 2.625Z" fill="#B1081A"/>
   <path d="M11 2.625L4.5 8.3125L6.5 10.0625L10.75 6.34375L13 4.375L11 2.625Z" fill="#B1081A"/>
@@ -53,8 +58,15 @@ const productsection = () => {
   </div>
   <div></div>
   </section>
+  <div className='section-product-jfull'>
+    <div className='sideseaterinfo-product'><img className='icon_image' src={seater} alt="Seater Icon" />Five Seater</div>
+    <div className='sideseaterinfo-product'><img className='icon_image' src={petrol} alt="Petrol Icon" />Petrol | Diesel | CNG | Electric</div>
+    <div className='sideseaterinfo-product'><img className='icon_image' src={manul} alt="Manual Icon" />Manual | Automatic | IMT</div>
+    <div className='sideseaterinfo-product'><img className='icon_image' src={ncap} alt="NCAP Icon" /> 4 Star Ratings</div>
+  </div>
+  </section>
     </section>
       )
 }
 
-export default productsection
+export default productsection;
