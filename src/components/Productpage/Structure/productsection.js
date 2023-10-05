@@ -65,6 +65,16 @@ const productsection = () => {
     <div className='sideseaterinfo-product'><img className='icon_image' src={ncap} alt="NCAP Icon" /> 4 Star Ratings</div>
   </div>
   </section>
+  <section className='mt-4 mb-4'>
+  <div className='advance_bars'>
+        <ul className='search_tabs newsearch-product mt-3 mb-3'>
+            <li className='advance_bars_back product-new flex-column active'>#1<div className="">SALES JAN 2023</div></li><div className='margin_gap' />
+            <li className='advance_bars_back product-new flex-column'>300<div className="">DEALERS</div></li><div className='margin_gap' />
+            <li className='advance_bars_back product-new flex-column'>1000<div className="">SERVICE CENTERS</div></li><div className='margin_gap' />
+            <li className='advance_bars_back product-new flex-column'>10<div className="">VARIANTS</div></li>
+        </ul>
+      </div>
+  </section>
     </section>
       )
 }

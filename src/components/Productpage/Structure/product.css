@@ -189,3 +189,11 @@ align-items: center;
 .sideseaterinfo-product .icon_image{
 margin-right: 5px;
 }
+.product-new{
+    border-radius: 4px !important;
+    width: 180px;
+
+}
+.newsearch-product{
+    gap: 0.9%;
+}
