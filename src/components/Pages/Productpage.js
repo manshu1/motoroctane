@@ -11,7 +11,7 @@ const Productpage = () => {
     <Productsection />
     <div></div>
     <div></div>
-    <div></div>
+  
 
     <Footer />
     </>
