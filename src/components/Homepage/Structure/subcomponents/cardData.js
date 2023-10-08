@@ -7,6 +7,14 @@ const carData = [
     star: '⭐⭐⭐⭐',
     variants: 3,
     price: '₹ 10,44,000 - ₹ 18,20,000',
+    colors: {
+      color1: '#0802A3',
+      color2: '#FF4B91',
+      color3: '#016A70',
+      color4: '#FF4B91',
+      color5: '#FFCD4B',
+      color6: '#5D12D2',
+    },
   },
   {
     id: 1,
