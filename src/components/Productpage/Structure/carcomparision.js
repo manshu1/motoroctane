@@ -39,15 +39,15 @@ const CarComparisonData = [
           <button className="slider_btn_white" onClick={handlePrevious}>
             <ion-icon name="chevron-back-outline"></ion-icon>
           </button>
-          <div className="d-flex align-items-center copm-cards">
-            <div className="car-com-section" style={containerStyle}>
+          <div className="d-flex align-items-center copm-cards2">
+            <div className="car-com-section car-com-section2" style={containerStyle}>
               {CarComparisonData.map((CarComparison, index) => (
-                <div key={index} className="d-flex comparo-card">
+                <div key={index} className="d-flex comparo-card comparo-card2">
                 <div>
                     <img src={CarComparison.src1} alt="Car1" className="car-comp-img" />
                   <div className="comp-description">
-                    <div className="comp-description-brand">{CarComparison.Brand}</div>
-                    <div className="comp-description-model">{CarComparison.Model}</div>
+                    <div className="comp-description-brand comp-description-brand3">{CarComparison.Brand}</div>
+                    <div className="comp-description-model comp-description-brand2">{CarComparison.Model}</div>
                     <p className="comp-description-price">₹{CarComparison.Price}</p>
                   </div>
                   </div>
@@ -56,8 +56,8 @@ const CarComparisonData = [
                   <div>
                     <img src={CarComparison.src2} alt="Car2" className="car-comp-img" />
                     <div className="comp-description">
-                    <div className="comp-description-brand">{CarComparison.Brand}</div>
-                    <div className="comp-description-model">{CarComparison.Model}</div>
+                    <div className="comp-description-brand comp-description-brand3">{CarComparison.Brand}</div>
+                    <div className="comp-description-model comp-description-brand2">{CarComparison.Model}</div>
                     <p className="comp-description-price">₹{CarComparison.Price}</p>
                   </div>
                   </div>
@@ -79,13 +79,13 @@ const CarComparisonData = [
   const CarComparison = () => {
     return (
       <section className=''>
-        <div className="label">
-          <p className="FIND-YOUR-PERFECT brand mt-3">
-            <span className="text-wrapper text-uppercase">CAR</span>
-            <span className="span">&nbsp;</span>
-            <span className="text-wrapper-2 text-uppercase">COMPARISON</span>
-          </p>
-        </div>
+              <div className="carousel">
+      <div className="label d-flex">
+                    <p className="varienttxt mt-3 fw-bold">
+                        <span className="text-wrapper">HYUNDAI</span>
+                        <span className="span">&nbsp;</span>
+                        <span className="text-wrapper-2">COMPARISION</span>
+                    </p></div></div>
   
         <CarComparisonSection />
   

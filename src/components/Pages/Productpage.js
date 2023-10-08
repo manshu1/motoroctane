@@ -13,6 +13,7 @@ import History from '../Productpage/Structure/myhistory';
 import Adbanner3 from '../Productpage/Structure/Adbanner3';
 import Newsupdate from '../Productpage/Structure/newsupdate';
 import Carupdate from '../Productpage/Structure/carcomparision';
+import FeaturedCar from '../Homepage/Structure/featuredcars';
 import Footer from '../Homepage/Structure/footer';
 
 
@@ -34,9 +35,10 @@ const Productpage = () => {
     <Adbanner3 />
     <Newsupdate />
     <Carupdate />
+    <FeaturedCar />
     <Footer />
     </>
   )
 }
 
-export default Productpage
+export default Productpage;
