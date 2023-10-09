@@ -13,6 +13,7 @@ import History from '../Productpage/Structure/myhistory';
 import Adbanner3 from '../Productpage/Structure/Adbanner3';
 import Newsupdate from '../Productpage/Structure/newsupdate';
 import Carupdate from '../Productpage/Structure/carcomparision';
+import Consult from '../Productpage/Structure/consultus';
 import FeaturedCar from '../Homepage/Structure/featuredcars';
 import Footer from '../Homepage/Structure/footer';
 
@@ -36,6 +37,7 @@ const Productpage = () => {
     <Newsupdate />
     <Carupdate />
     <FeaturedCar />
+    <Consult />
     <Footer />
     </>
   )
