@@ -11,7 +11,8 @@ import FuelCost from '../Productpage/Structure/fuelcost';
 import Reviews from '../Productpage/Structure/reviews';
 import History from '../Productpage/Structure/myhistory';
 import Adbanner3 from '../Productpage/Structure/Adbanner3';
-import Newsupdate from '../Productpage/Structure/newsupdate';
+import Newsupdate from '../Homepage/Structure/newsupdate';
+import CarComparison from '../Homepage/Structure/carcomparision';
 import Carupdate from '../Productpage/Structure/carcomparision';
 import Consult from '../Productpage/Structure/consultus';
 import FeaturedCar from '../Homepage/Structure/featuredcars';
@@ -35,7 +36,8 @@ const Productpage = () => {
     <History />
     <Adbanner3 />
     <Newsupdate />
-    <Carupdate />
+    <CarComparison
+     />
     <FeaturedCar />
     <Consult />
     <Footer />
